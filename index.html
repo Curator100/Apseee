@@ -1,0 +1,80 @@
+<!DOCTYPE html><html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AP SEED BD</title>
+  <style>
+    /* Global styles */
+    body { margin: 0; font-family: 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #333; 
+           background: url('5.jpg') no-repeat center center fixed; background-size: cover; position: relative; }
+    /* Overlay to dim background */
+    body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; 
+                  background-color: rgba(255,255,255,0.7); z-index: -1; }
+    .container { max-width: 480px; margin: 0 auto; padding: 1em; }
+    img.banner { width: 100%; height: auto; display: block; margin-bottom: 0.5em; }
+    header { text-align: center; padding: 1em 0; }
+    header h1 { margin: 0.2em 0; font-size: 1.8em; }
+    header p.tagline { margin: 0; font-size: 1.1em; color: #555; }
+    section.catchphrases { margin: 1.5em 0; }
+    .catchphrases p { margin: 0.5em 0; font-size: 1em; }
+    section.products { margin: 1em 0; }
+    .product-list { display: flex; flex-direction: column; gap: 1em; }
+    .product { background: rgba(255,255,255,0.9); border-radius: 8px; padding: 0.8em; 
+               display: flex; align-items: center; gap: 0.8em; }
+    .product img { width: 80px; height: auto; border-radius: 4px; }
+    .product-info { flex: 1; }
+    .product-info h3 { margin: 0 0 0.3em; font-size: 1.1em; }
+    .product-info p.price { margin: 0; font-weight: bold; font-size: 1em; }
+    .buy-btn { display: inline-block; padding: 0.6em 1em; margin-top: 0.5em; background: #28a745; color: #fff; text-decoration: none; 
+               border-radius: 4px; font-size: 0.9em; }
+    .buy-btn:hover { background: #218838; }
+    @media (min-width: 480px) {
+      .product-list { flex-direction: row; flex-wrap: wrap; }
+      .product { flex: 1 1 calc(50% - 1em); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="1.png" alt="AP SEED BD Banner" class="banner">
+      <h1>AP SEED BD</h1>
+      <p class="tagline">একটি ভালো বীজের বিশ্বস্ত প্রতিষ্ঠান।</p>
+    </header>
+    <section class="catchphrases">
+      <p>বীজ আপনার ভবিষ্যতের ভিত্তি।</p>
+      <p>প্রতিরক্ষা শক্তি আর সুস্বাদু ফলের গ্যারান্টি।</p>
+      <p>বিশেষত সুপার সীড ওয়াটারমেলন—মিষ্টি, সুমিষ্ট স্বাদে ভরপুর!</p>
+    </section>
+    <section class="products">
+      <h2>আমাদের পণ্যসমূহ</h2>
+      <div class="product-list">
+        <div class="product">
+          <img src="1.jpg" alt="Product 1">
+          <div class="product-info">
+            <h3>বীজ-১</h3>
+            <p class="price">৳ 3500</p>
+            <a href="https://wa.me/8801832355168" class="buy-btn">এখনই কিনুন</a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="2.jpg" alt="Product 2">
+          <div class="product-info">
+            <h3>বীজ-২</h3>
+            <p class="price">৳ 3600</p>
+            <a href="https://wa.me/8801832355168" class="buy-btn">এখনই কিনুন</a>
+          </div>
+        </div>
+        <div class="product">
+          <img src="3.jpg" alt="Product 3">
+          <div class="product-info">
+            <h3>বীজ-৩</h3>
+            <p class="price">৳ 4000</p>
+            <a href="https://wa.me/8801832355168" class="buy-btn">এখনই কিনুন</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+  </html>
